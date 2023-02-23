@@ -1,2 +1,2 @@
-# backend-beginner
-Materi Kelas Backend Beginner KSM Android UPNVJ Genap 2022
+# Backend Beginner Study Club
+Repository Pembelajaran Backend Beginner KSM Android UPNVJ 2023
