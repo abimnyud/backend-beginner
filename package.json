@@ -1,0 +1,29 @@
+{
+  "name": "backend-beginner",
+  "version": "1.0.0",
+  "description": "Repository Pembelajaran Backend Beginner KSM Android UPNVJ 2023",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abimnyud/backend-beginner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abimnyud/backend-beginner/issues"
+  },
+  "homepage": "https://github.com/abimnyud/backend-beginner#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "nodemon": "^2.0.20"
+  }
+}
