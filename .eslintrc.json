@@ -6,10 +6,13 @@
     },
     "extends": "airbnb-base",
     "overrides": [
+        
     ],
     "parserOptions": {
         "ecmaVersion": "latest"
     },
     "rules": {
+        "no-console": "off",
+        "no-unused-vars": "warn"
     }
 }
