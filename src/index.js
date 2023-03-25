@@ -1,5 +1,5 @@
 const express = require('express');
-const router = require('./router/router');
+const router = require('./routes/movie.route');
 const errorHandler = require('./middleware/errorHandler');
 
 const app = express();
