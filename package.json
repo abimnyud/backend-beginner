@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/abimnyud/backend-beginner#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "joi": "^17.8.3"
   },
   "devDependencies": {
     "eslint": "^8.34.0",

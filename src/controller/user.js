@@ -1,3 +1,6 @@
+const CustomError = require('../class/CustomError');
+const registrationSchema = require('../schema/registration');
+
 function getUserByIdFromQuery(req, res) {
   const { id } = req.query;
   console.log(id);
@@ -12,9 +15,10 @@ function getUserByIdFromParam(req, res) {
 
 function register(req, res) {
   const { username, password } = req.body;
-  // hash password
-  // save database
-  //   throw new Error('Error');
+
+  const { error } = registrationSchema.validate({ username, password });
+
+  if (error) throw new CustomError(error.message, 400);
 
   res.send({ username, password });
 }
